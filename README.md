@@ -29,20 +29,20 @@ Command
 Example
 
     (tilt-up)
-    ./mtctl -v -u -d 150000 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 08 20 20 49'
-    ./mtctl -v -u -d 1 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 00 00 00 01'
+    ./mtctl -v -l 7 -u -d 150000 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 08 20 20 49'
+    ./mtctl -v -l 7 -u -d 1 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 00 00 00 01'
 
     (tilt-down)
-    ./mtctl -v -u -d 150000 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 10 20 20 51'
-    ./mtctl -v -u -d 1 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 00 00 00 01'
+    ./mtctl -v -l 7 -u -d 150000 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 10 20 20 51'
+    ./mtctl -v -l 7 -u -d 1 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 00 00 00 01'
 
     (pan-left)
-    ./mtctl -v -u -d 150000 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 04 20 20 45'
-    ./mtctl -v -u -d 1 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 00 00 00 01'
+    ./mtctl -v -l 7 -u -d 150000 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 04 20 20 45'
+    ./mtctl -v -l 7 -u -d 1 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 00 00 00 01'
 
     (pan-right)
-    ./mtctl -v -u -d 150000 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 02 20 20 43'
-    ./mtctl -v -u -d 1 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 00 00 00 01'
+    ./mtctl -v -l 7 -u -d 150000 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 02 20 20 43'
+    ./mtctl -v -l 7 -u -d 1 -c 1 -b 2400 -p /dev/ttyUSB0 'FF 01 00 00 00 00 01'
 ```
 
 ```
